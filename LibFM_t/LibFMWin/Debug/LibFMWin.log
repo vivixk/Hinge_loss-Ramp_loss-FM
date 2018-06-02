@@ -1,0 +1,127 @@
+﻿生成启动时间为 2017/11/8 15:18:14。
+     1>项目“D:\Work\CreditEval\TimeFM\code\LibFMWin\LibFMWin\LibFMWin.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\LibFMWin.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\LibFMWin.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\LibFMWin.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LibFMWin.cpp tools\convert.cpp tools\transpose.cpp
+         transpose.cpp
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(41): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(42): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(106): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(115): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(138): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(150): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(230): warning C4244: “初始化”: 从“uint64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(255): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(313): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\transpose.cpp(56): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\transpose.cpp(117): warning C4244: “初始化”: 从“double”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\transpose.cpp(122): warning C4244: “参数”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(176): warning C4244: “初始化”: 从“double”转换到“uint64”，可能丢失数据
+                 d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(153): 编译类 模板 成员函数“LargeSparseMatrixHD<T>::LargeSparseMatrixHD(std::string,uint64)”时
+                 with
+                 [
+                     T=DATA_FLOAT
+                 ]
+                 d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(104): 参见对正在编译的类 模板 实例化“LargeSparseMatrixHD<T>”的引用
+                 with
+                 [
+                     T=DATA_FLOAT
+                 ]
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(180): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(188): warning C4244: “参数”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(226): warning C4244: “参数”: 从“uint64”转换到“unsigned int”，可能丢失数据
+                 d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(226): 编译类 模板 成员函数“sparse_row<T> &LargeSparseMatrixHD<T>::getRow(void)”时
+                 with
+                 [
+                     T=FM_FLOAT
+                 ]
+         convert.cpp
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(41): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(42): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(106): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(115): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(138): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(150): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(230): warning C4244: “初始化”: 从“uint64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(255): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(313): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\convert.cpp(57): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\convert.cpp(108): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\convert.cpp(113): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\convert.cpp(175): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\tools\convert.cpp(179): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(176): warning C4244: “初始化”: 从“double”转换到“uint64”，可能丢失数据
+                 d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(153): 编译类 模板 成员函数“LargeSparseMatrixHD<T>::LargeSparseMatrixHD(std::string,uint64)”时
+                 with
+                 [
+                     T=DATA_FLOAT
+                 ]
+                 d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(104): 参见对正在编译的类 模板 实例化“LargeSparseMatrixHD<T>”的引用
+                 with
+                 [
+                     T=DATA_FLOAT
+                 ]
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(180): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(188): warning C4244: “参数”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(226): warning C4244: “参数”: 从“uint64”转换到“unsigned int”，可能丢失数据
+                 d:\work\crediteval\timefm\code\libfmwin\util\fmatrix.h(226): 编译类 模板 成员函数“sparse_row<T> &LargeSparseMatrixHD<T>::getRow(void)”时
+                 with
+                 [
+                     T=FM_FLOAT
+                 ]
+         LibFMWin.cpp
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(41): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\util\util.h(42): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(106): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\relation.h(115): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(138): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(150): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(230): warning C4244: “初始化”: 从“uint64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(255): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\data.h(313): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\fm_learn_mcmc.h(724): warning C4244: “+=”: 从“double”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\src\fm_learn_mcmc.h(843): warning C4244: “+=”: 从“double”转换到“uint”，可能丢失数据
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\libfmwin.cpp(115): error C2668: “CMDLine::getValue”: 对重载函数的调用不明确
+                 d:\work\crediteval\timefm\code\libfmwin\util\cmdline.h(163): 可能是“const uint CMDLine::getValue(const std::string &,const uint &)”
+                 d:\work\crediteval\timefm\code\libfmwin\util\cmdline.h(155): 或       “const int CMDLine::getValue(const std::string &,const int &)”
+                 d:\work\crediteval\timefm\code\libfmwin\util\cmdline.h(147): 或       “const long CMDLine::getValue(const std::string &,const long &)”
+                 d:\work\crediteval\timefm\code\libfmwin\util\cmdline.h(139): 或       “const double CMDLine::getValue(const std::string &,const double &)”
+                 尝试匹配参数列表“(const std::string, time_t)”时
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\libfmwin.cpp(290): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\work\crediteval\timefm\code\libfmwin\libfmwin\libfmwin.cpp(291): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+         正在生成代码...
+     1>已完成生成项目“D:\Work\CreditEval\TimeFM\code\LibFMWin\LibFMWin\LibFMWin.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.03

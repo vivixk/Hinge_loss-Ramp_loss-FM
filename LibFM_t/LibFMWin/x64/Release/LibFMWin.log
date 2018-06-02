@@ -1,0 +1,50 @@
+﻿生成启动时间为 2017/12/25 星期一 16:09:08。
+     1>项目“C:\Users\Administrator\Desktop\LibFMWin\LibFMWin\LibFMWin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\LibFMWin.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt LibFMWin.cpp
+         LibFMWin.cpp
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\../util/util.h(41): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\../util/util.h(42): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\../util/cmdline.h(93): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\util\../util/random.h(41): warning C4273: “erf”: dll 链接不一致
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(486) : 参见“erf”的前一个定义
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\relation.h(106): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\relation.h(115): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(138): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(150): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\Data.h(255): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\fm_learn_mcmc.h(724): warning C4244: “+=”: 从“double”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\libfmwin\src\fm_learn_mcmc.h(843): warning C4244: “+=”: 从“double”转换到“uint”，可能丢失数据
+     1>LibFMWin.cpp(65): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>LibFMWin.cpp(167): warning C4267: “参数”: 从“size_t”转换到“uint”，可能丢失数据
+     1>LibFMWin.cpp(168): warning C4267: “参数”: 从“size_t”转换到“uint”，可能丢失数据
+     1>LibFMWin.cpp(169): warning C4267: “参数”: 从“size_t”转换到“uint”，可能丢失数据
+     1>LibFMWin.cpp(271): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>LibFMWin.cpp(272): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(176): warning C4244: “初始化”: 从“double”转换到“uint64”，可能丢失数据
+                 c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(153): 编译类 模板 成员函数“LargeSparseMatrixHD<DATA_FLOAT>::LargeSparseMatrixHD(std::string,uint64)”时
+                 c:\users\administrator\desktop\libfmwin\libfmwin\src\relation.h(104): 参见对正在编译的函数 模板 实例化“LargeSparseMatrixHD<DATA_FLOAT>::LargeSparseMatrixHD(std::string,uint64)”的引用
+                 c:\users\administrator\desktop\libfmwin\libfmwin\src\relation.h(104): 参见对正在编译的类 模板 实例化“LargeSparseMatrixHD<DATA_FLOAT>”的引用
+     1>c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(180): warning C4244: “=”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(188): warning C4244: “参数”: 从“uint64”转换到“uint”，可能丢失数据
+     1>c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(226): warning C4244: “参数”: 从“uint64”转换到“unsigned int”，可能丢失数据
+                 c:\users\administrator\desktop\libfmwin\fm_core\../util/fmatrix.h(226): 编译类 模板 成员函数“sparse_row<FM_FLOAT> &LargeSparseMatrixHD<DATA_FLOAT>::getRow(void)”时
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.lib" /MACHINE:X64 x64\Release\LibFMWin.obj
+         x64\Release\stdafx.obj
+            正在创建库 C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.lib 和对象 C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.exp
+         正在生成代码
+         已完成代码的生成
+         LibFMWin.vcxproj -> C:\Users\Administrator\Desktop\LibFMWin\x64\Release\LibFMWin.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\LibFMWin\LibFMWin\LibFMWin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.72
